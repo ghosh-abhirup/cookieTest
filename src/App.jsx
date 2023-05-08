@@ -10,7 +10,7 @@ function App() {
     company: "Perch"
   }
   useEffect(()=>{
-    setCookie('data', dataValue, [{ path:'/'}, {domain:'.netlify.app'}])
+    setCookie('data', dataValue, [{ path:'/'}, {domain:'.singleufo.com'}])
   },[])
 
 //   console.log(cookie['data'])
