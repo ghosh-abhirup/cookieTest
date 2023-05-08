@@ -13,7 +13,8 @@ function App() {
     setCookie('data', dataValue, [{ path:'/'}, {domain:'.netlify.app'}])
   },[])
 
-  console.log(cookie['data'])
+//   console.log(cookie['data'])
+  console.log(document.cookie)
 
   return (
     <>
