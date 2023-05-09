@@ -7,6 +7,7 @@ import './App.css'
 function App() {
   const [cookie, setCookie] = useCookies(['data'])
   const dataValue = {
+    name: "Abhirup",
     company: "Perch"
   }
   useEffect(()=>{
